@@ -61,7 +61,7 @@ public/
 ``bash
 git clone https://github.com/mohamed-thoufiq/Bridge-Between-Investor-and-Business-Peoples.git
 cd Bridge-Between-Investor-and-Business-Peoples
-## 2. Set Up Firebase
+### 2. Set Up Firebase
 Go to Firebase Console
 
 Create a project
@@ -84,7 +84,7 @@ export const firebaseConfig = {
   appId: "APP_ID"
 };
 
-## 3. Serve Locally
+### 3. Serve Locally
 Use Live Server in VS Code
 or
 
