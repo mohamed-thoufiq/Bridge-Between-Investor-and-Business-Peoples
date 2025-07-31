@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Business Dashboard</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Business Dashboard</h2>
+
+    <!-- Post Business Idea Form -->
+    <input type="text" id="title" placeholder="Idea Title" />
+    <textarea id="description" placeholder="Describe your idea..."></textarea>
+    <button id="postIdeaBtn">Post Idea</button>
+
+    <!-- Idea List Section -->
+    <h3 style="margin-top: 30px;">Your Posted Ideas</h3>
+    <div id="ideaList">
+      <!-- .idea-box items get dynamically added here -->
+    </div>
+  </div>
+
+  <script type="module" src="../js/business.js"></script>
+</body>
+</html>

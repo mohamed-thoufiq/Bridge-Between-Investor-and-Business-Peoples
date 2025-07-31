@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advisor Dashboard</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Advisor Dashboard</h2>
+
+    <!-- Post Advice Form -->
+    <input type="text" id="infoTitle" placeholder="Help Topic" />
+    <textarea id="infoDesc" placeholder="Information or Advice..."></textarea>
+    <button id="postInfoBtn">Post Information</button>
+
+    <!-- Posted Advice Section -->
+    <h3 style="margin-top: 30px;">Your Posted Advice</h3>
+    <div id="infoList">
+      <!-- Dynamic .idea-box items will be appended here -->
+    </div>
+  </div>
+
+  <script type="module" src="../js/advisor.js"></script>
+</body>
+</html>
