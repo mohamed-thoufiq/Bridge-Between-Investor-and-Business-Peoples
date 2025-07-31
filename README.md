@@ -61,7 +61,7 @@ public/
 ``bash
 git clone https://github.com/mohamed-thoufiq/Bridge-Between-Investor-and-Business-Peoples.git
 cd Bridge-Between-Investor-and-Business-Peoples
-2. Set Up Firebase
+## 2. Set Up Firebase
 Go to Firebase Console
 
 Create a project
@@ -84,7 +84,7 @@ export const firebaseConfig = {
   appId: "APP_ID"
 };
 
-3. Serve Locally
+## 3. Serve Locally
 Use Live Server in VS Code
 or
 
@@ -94,14 +94,14 @@ firebase login
 firebase init
 firebase serve
 
-🌐 Deployment
+## 🌐 Deployment
 The app is deployed using Firebase Hosting.
 
 To deploy:
 firebase deploy
 
 
-📑 Documentation
+## 📑 Documentation
 Firebase Firestore rules are configured for role-based access control
 
 User actions (like login, posting, deleting) are logged using logger.js
@@ -110,8 +110,8 @@ Fully modular code organized per user role
 
 Simple, responsive UI for better usability
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
 
-✨ Author
+## ✨ Author
 Made with 💻 by Mohamed Thoufiq
